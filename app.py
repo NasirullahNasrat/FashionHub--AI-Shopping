@@ -13,7 +13,7 @@ from io import BytesIO
 import tempfile
 
 # Initialize OpenAI API
-openai.api_key = os.getenv("OPENAI_API_KEY", "")
+openai.api_key = os.getenv("OPENAI_API_KEY", "your-api-key")
 
 # System prompt for clothes shopping assistant
 SYSTEM_PROMPT = """You are a helpful and friendly online clothes shopping assistant for "FashionHub". 
